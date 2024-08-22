@@ -1,0 +1,12 @@
+1. To compile --> javac -d .\classes\ TwoSum.java
+
+2. To run --> java -cp ./classes TwoSum
+
+
+
+
+
+
+
+
+

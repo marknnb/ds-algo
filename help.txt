@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(5, 10, 3, 8, 2);
+        int max = numbers.stream()
+                .max(Integer::compareTo)
+                .orElseThrow(NoSuchElementException::new);
+        System.out.println("The maximum value is: " + max);
+    }
+}
